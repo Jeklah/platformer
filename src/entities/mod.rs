@@ -1,8 +1,10 @@
 use macroquad::prelude::*;
 
+pub mod collectible;
 pub mod platform;
 pub mod player;
 
+pub use collectible::Collectible;
 pub use platform::Platform;
 pub use player::Player;
 
