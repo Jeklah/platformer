@@ -1,10 +1,11 @@
 use macroquad::prelude::*;
 
-mod game;
+mod config;
 mod entities;
-mod physics;
-mod input;
+mod game;
 mod graphics;
+mod input;
+mod physics;
 
 use game::Game;
 
